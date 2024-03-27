@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Flag = () => {
+const Flag = ({flag}) => {
   return (
     <div>Flag</div>
   )

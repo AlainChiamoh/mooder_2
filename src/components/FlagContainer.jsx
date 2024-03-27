@@ -1,8 +1,13 @@
-import React from 'react'
+import {flags} from '../constants/flags';
+import Flag from './Flag';
 
 const FlagContainer = () => {
   return (
-    <div>FlagContainer</div>
+    <div>
+
+      {flags.map((flag)=>(<Flag flag={flag}/>))}
+
+    </div>
   )
 }
 
