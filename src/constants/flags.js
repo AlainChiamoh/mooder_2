@@ -1,46 +1,48 @@
-export default flag = [
+import FlagImage from '../assets/images/cameroon_flag.png';
+const flags = [
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
     {
         country: 'Cameroon',
-        image: require('../assets/image/cameroon_image.png'),
+        image: FlagImage,
     },
 ]
+export default flags
