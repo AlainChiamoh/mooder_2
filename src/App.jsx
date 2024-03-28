@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './components/Hero'
 import FlagContainer from './components/FlagContainer'
-
+import DishContainer from './components/DishContainer'
 function App() {
 
 
@@ -12,6 +12,7 @@ function App() {
     <>
       <Hero/>
       <FlagContainer/>
+      <DishContainer/>
     </>
   )
 }
